@@ -8,7 +8,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'kanit', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 body {
@@ -19,9 +19,7 @@ body {
     line-height: 1.6;
 }
 
-h1,
-h2,
-legend {
+h1, h2, legend {
     color: var(--primary);
     margin-top: 0;
 }
@@ -36,10 +34,10 @@ legend {
 }
 
 fieldset {
-    border: 2px solid var (--prlmary);
-    border-radius: var (--radius);
+    border: 2px solid var(--primary);
+    border-radius: var(--radius);
     margin-bottom: 1.75rem;
-    padding: lrem 1.5 rem 1.5rem;
+    padding: 1rem 1.5rem 1.5rem;
 }
 
 legend {
@@ -68,7 +66,7 @@ textarea {
 input[type="radio"],
 Input[type="checkbox"] {
     margin-right: 0.5rem;
-    accent-color: var(primary);
+    accent-color: var(--primary);
 }
 
 textarea {
@@ -89,7 +87,9 @@ output {
 }
 
 button,
-input[type="submit"] input[type="reset"] input[type="button"] {
+input[type="submit"], 
+input[type="reset"], 
+input[type="button"] {
     background: var(--primary);
     color: #ffffff;
     border: none;
